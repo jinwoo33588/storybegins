@@ -1,0 +1,69 @@
+.script-editor {
+  height: 100%;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.script-editor h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.script-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.script-input textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: vertical;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.script-input button {
+  align-self: flex-end;
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.script-input button:hover {
+  background-color: #2563eb;
+}
+
+.script-list {
+  list-style: none;
+  padding: 0;
+}
+
+.script-list li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.script-list button {
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
+
+.script-list button:hover {
+  background: #dc2626;
+}
